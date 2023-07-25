@@ -1,0 +1,26 @@
+* { 
+ box-sizing: border-box;
+
+}
+
+header{ 
+padding: 2rem;
+
+}
+h1 {
+
+    text-align: center;
+}
+.coloum { 
+ float:left;
+ width: 25%;
+ padding: 10px;
+ height: 300px; 
+
+}
+.row:after{ 
+ content: "";
+ display: table; 
+ clear: both; 
+
+}
